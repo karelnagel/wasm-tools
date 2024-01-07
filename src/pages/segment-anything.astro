@@ -1,0 +1,17 @@
+---
+import { SegmentAnythingReact } from "../components/segment-anything-react";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Astro</title>
+  </head>
+  <body class="flex flex-col items-center gap-4 py-4">
+    <h1>Segment Anything WASM by <a href="https://asius.ai">Asius.ai</a></h1>
+    <SegmentAnythingReact client:load />
+  </body>
+</html>
